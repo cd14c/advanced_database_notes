@@ -365,4 +365,4 @@ COMMIT;
 -- Verify
 SELECT 'dim_agent: '   || COUNT(*) FROM dim_agent
 UNION ALL
-SELECT 'fact_ticket_dailt: ' || COUNT(*) FROM fact_ticket_daily;
+SELECT 'fact_ticket_daily: ' || COUNT(*) FROM fact_ticket_daily;
